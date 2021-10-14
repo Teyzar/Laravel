@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    background-color: darkgray;
+    background: linear-gradient(120deg, white, lightgrey);
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+    padding: 0 100px;
+    transition: 0.6s;
+}
+
+header .img {
+    height: 80px;
+    width: 220px;
+}
+header .navigation {
+    position: relative;
+
+}
+
+.list {
+    position: relative;
+    display: flex;
+    padding-left: 20px;
+    list-style: none;
+    user-select: none;
+    position: fixed;
+}
+.list-item > a {
+    color: darkslategray;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 20px;
+    padding: 25px 0;
+}
+.list-item > a:hover {
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+}
+
+.account .btn {
+    
+    color: darkslategrey;
+    position: fixed;
+    border-radius: 15px; 
+    
+}
+
+.account .btn:hover {
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+}
+
+
+.account > a {
+    background-position: 20px;
+    text-decoration: none;
+    color: navy;
+}
+
+.account .select {
+    position: absolute;
+    top: 18.5px;
+    line-height: 40px;
+    list-style: none;
+    box-shadow: 0 5px 25px rgb(0 0 0/ 20%);
+    pointer-events: none;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+    transition-property: transform, opacity;
+    background: lightyellow;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+.account:hover .select {
+    pointer-events: all;
+    transform: translateY(0);
+    opacity: 1;
+}
+.account .select .select-item {
+    position: relative;
+    padding: 7px 0;
+    cursor: pointer;
+    box-shadow: inset 0px -30px 5px -30px rgba(255, 255, 255, 0.5);
+}
+
+.select .select-item a{
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    
+}
+
+.account .select .select-item:hover {
+    background: #4080EF;
+    background-blend-mode: 20px;
+    transition: all 0.3s ease 0.1s;
+    border-radius:12px;
+    overflow: hidden;
+}
+
+.account .select .select-item:last-child:hover {
+    border-radius: 0 0 8px 8px;
+}

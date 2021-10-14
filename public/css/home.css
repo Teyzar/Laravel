@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Rampart+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url('/img/bg.jpeg') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    margin: 0;
+    padding:0;
+    position: sticky;
+    top: 0;
+}
+.container .sidebar {
+    width: 15%;
+    top: 0;
+    height: 100%;
+}
+
+.ul-list {
+    width: 15%;
+    top: 78px;
+    margin-left: 2px;
+    margin-top: 10px;
+    display: inline-block;
+    border-style: groove;
+    border-color: darkgray;
+    border-radius: 25px;
+    height: 90%;
+    position: fixed;
+}
+
+.ul-list li {
+    padding: 15px;
+}
+.ul-list li a{
+    color: darkolivegreen;
+    font-size: 20px;
+    position: fixed;
+    text-decoration: none;
+    font-family: 'Rampart One', cursive;
+    color: azure;
+    font-weight: bold;
+    overflow: auto;
+}
+.ul-list li a:hover{
+    color: #2691d9;
+    font-size: x-large;
+    transition: 0.4s;
+}
+
+i#id {
+    padding-right: 10px;
+    color: navajowhite;
+}
+i:hover {
+    color: #2691d9;
+    transition: 0.4s;
+    font-size: x-large;
+}
+.div {
+    padding-bottom: 50px;
+    border-bottom: 2px solid darkolivegreen;
+    position: relative;
+}

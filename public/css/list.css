@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&family=Kaisei+Tokumin&display=swap');
+
+
+.center {
+    margin-left: 20%;
+    top: 0;
+
+}
+
+.tr .th {
+    padding: 10px;
+    font-family: 'Kaisei Tokumin', serif;
+    background: azure;
+    border-style: groove;
+    font-size: 15px;
+}
+
+.center .table {
+    width: 10%;
+}
+.tr2 .td {
+    padding-top: 1px;
+    border-top: groove ;
+    border-right: groove ;
+    border-bottom: groove;
+    border-left: groove;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    border-color: mintcream;
+    border-radius: 35px;
+    text-align: center;
+}
+.tr2 .td a {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 19px;
+     text-decoration: none;
+     color: darkolivegreen;
+}
+
+.center .table {
+    width: 90%;
+}
