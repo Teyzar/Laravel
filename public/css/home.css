@@ -70,3 +70,15 @@ i:hover {
     border-bottom: 2px solid darkolivegreen;
     position: relative;
 }
+
+.datetime {
+    margin-left: 100em;
+    color:black;
+    font-weight: 1000px;
+}
+#ampm {
+    margin-left: 87em;
+    margin-top: 13px;
+    position: fixed;
+    color:black;
+}
